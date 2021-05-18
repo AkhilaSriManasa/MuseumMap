@@ -1,0 +1,141 @@
+data = [{
+        "lat": 25.5941,
+        "lng": 85.1376,
+        "img": "images/coin.png",
+        "link": "https://www.csmvs.in/collection/galleries/numismatics/110-coin-of-chandragupta-ii",
+        "century": 4
+    },
+    {
+        "lat": 30.1534,
+        "lng": 88.7879,
+        "img": "images/bowl.png",
+        "link": "https://www.csmvs.in/collection/galleries/chinese-and-japanese-antiquities/242-satsuma-bowl",
+        "century": 19
+    },
+    {
+        "lat": 23.1291,
+        "lng": 113.2644,
+        "img": "images/guanyin.png",
+        "link": "https://www.csmvs.in/collection/galleries/chinese-and-japanese-antiquities/241-seated-guanyin",
+        "century": 15
+    },
+    {
+        "lat": 39.9042,
+        "lng": 116.4074,
+        "img": "images/chime.png",
+        "link": "https://www.csmvs.in/collection/galleries/chinese-and-japanese-antiquities/240-imperial-jade-chime",
+        "century": 17
+    },
+    {
+        "lat": 24.8835,
+        "lng": 74.6230,
+        "img": "images/shield.png",
+        "link": "https://www.csmvs.in/collection/galleries/arms-and-armour/259-shield",
+        "century": 18
+    },
+    {
+        "lat": 12.2958,
+        "lng": 76.6394,
+        "img": "images/talwar.png",
+        "link": "https://www.csmvs.in/collection/galleries/arms-and-armour/257-talwar-sword",
+        "century": 18
+    },
+    {
+        "lat": 28.7041,
+        "lng": 77.1025,
+        "img": "images/talwar.png",
+        "link": "https://www.csmvs.in/collection/galleries/arms-and-armour/256-talwar-sword",
+        "century": 17
+    },
+    {
+        "lat": 22.9734,
+        "lng": 78.6569,
+        "img": "images/dagger.png",
+        "link": "https://www.csmvs.in/collection/galleries/arms-and-armour/258-dagger",
+        "century": 17
+    },
+    {
+        "lat": 27.0238,
+        "lng": 74.2179,
+        "img": "images/earrings.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=108&id=11&lk=dp11",
+        "century": 16
+    },
+    {
+        "lat": 27.0238,
+        "lng": 74.2179,
+        "img": "images/armbands.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=108&id=11&lk=dp11",
+        "century": 16
+    },
+    {
+        "lat": 12.2602,
+        "lng": 77.1461,
+        "img": "images/Dashavatara.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=1&id=6&lk=dp6",
+        "century": 16
+    },
+    {
+        "lat": 29.8477,
+        "lng": 79.3226,
+        "img": "images/door.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=2&id=6&lk=dp6",
+        "century": 17
+    },
+    {
+        "lat": 28.7041,
+        "lng": 77.1025,
+        "img": "images/Surahi.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=3&id=6&lk=dp6",
+        "century": 18
+    },
+    {
+        "lat": 27.1592,
+        "lng": 78.3957,
+        "img": "images/Gulab-pash.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=4&id=6&lk=dp6",
+        "century": 18
+    },
+    {
+        "lat": 17.3850,
+        "lng": 78.4867,
+        "img": "images/Huqqa-base.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=5&id=6&lk=dp6",
+        "century": 17
+    },
+    {
+        "lat": 24.7128,
+        "lng": 78.1365,
+        "img": "images/Pallu.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=6&id=6&lk=dp6",
+        "century": 19
+    },
+    {
+        "lat": 27.0238,
+        "lng": 74.2179,
+        "img": "images/Qanat.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=7&id=6&lk=dp6",
+        "century": 15
+    },
+    {
+        "lat": 33.7782,
+        "lng": 76.5762,
+        "img": "images/Qanat.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=8&id=6&lk=dp6",
+        "century": 18
+    },
+    {
+        "lat": 32.0998,
+        "lng": 76.2691,
+        "img": "images/Coverlet.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=9&id=6&lk=dp6",
+        "century": 17
+    },
+    {
+        "lat": 23.0707,
+        "lng": 80.0982,
+        "img": "images/pagdi-big.png",
+        "link": "http://www.nationalmuseumindia.gov.in/prodCollections.asp?pid=10&id=6&lk=dp6",
+        "century": 19
+    }
+];

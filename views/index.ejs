@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        #map {
+            height: 100%;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <!-- For fetching the data in the form of json Object -->
+    <script type=" text/javascript " src="json/data.json "></script>
+    <% var period=century %>
+        <script>
+            // Callback Function for a map
+            var newData = [];
+            var century = <%=period%>;
+            console.log(data.length)
+            for (var i = 0; i < data.length; i++) {
+                if (century == -1 || century == data[i].century) {
+                    newData.push(data[i]);
+                }
+            }
+
+            function initMap() {
+                // Getting a map
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    center: {
+                        lat: 21.1458,
+                        lng: 79.0882
+                    },
+                    zoom: 5
+                });
+                // Adding markers with their images and making it redirectable
+                var markers = newData.map(function(a) {
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: {
+                            lat: a.lat,
+                            lng: a.lng
+                        },
+                        icon: a.img
+                    });
+                    console.log(a.img);
+                    marker.addListener("click", function() {
+                        window.location.href = a.link;
+                    });
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfQyykb0nYGUHTG6wHigemd201z60bAfA&callback=initMap">
+        </script>
+        <div id="period">
+            <form action="/period" method="POST">
+                <input type="radio" name="century" value="15"> 15 <br>
+                <input type="radio" name="century" value="16"> 16 <br>
+                <input type="radio" name="century" value="17"> 17 <br>
+                <input type="radio" name="century" value="18"> 18 <br>
+                <input type="radio" name="century" value="19"> 19 <br>
+                <input type="radio" name="century" value="-1"> All <br>
+                <button type="submit">Submit Answer</button>
+            </form>
+        </div>
+</body>
+
+</html>
